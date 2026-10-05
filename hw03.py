@@ -35,7 +35,6 @@ def read_five_ints():
         else:
             print("Error in read_five_ints: input string is not for an integer")
             exit()
-        num = int(int_str)
         if 0>num or num>10:
             print("Error in read_five_ints: input integer outside of range")
             exit()
